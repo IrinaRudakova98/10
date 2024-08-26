@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./woman.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <a href="./index.html" class="header_logo" >
+                <img src="./img/logo.png" alt="logo" class="header_logo-img">
+            </a>
+        </div>
+        <nav class="header_nav">
+            <ul class="header_nav-ul">
+                <li class="header_nav-li">
+                    <a href="./woman.html">Женщинам</a>
+                </li>
+                <li class="header_nav-li">
+                    <a href="./man.html"> Мужчинам</a>
+                </li>
+                <li class="header_nav-li">
+                    <a href="./children.html"> Детям</a>
+                </li>
+            </ul>
+            <ul class="header_ul">    
+                <li class="header_nav-li">
+                    <a href="" class="header_nav-li-a"> 
+                        <img src="./img/icons8-лупа-50.png" alt="поиск" class="header_nav-li-img">
+                    </a>
+                </li>
+                <li class="header_nav-li">
+                    <a href="" class="header_nav-li-a">
+                        <img src="./img/icons8-человек-50.png" alt="профиль" class="header_nav-li-img">
+                    </a>
+                </li>
+                <li class="header_nav-li">
+                    <a href="" class="header_nav-li-a">
+                        <img src="./img/icons8-корзина-48.png" alt="корзина" class="header_nav-li-img">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="content">
+              <form>
+                <label for="title">Название товара:</label>
+                <input type="text" id="title" name="title">
+        
+                <label for="price">Цена:</label>
+                <input type="number" id="price" name="price">
+        
+                <label for="description">Описание:</label>
+                <textarea id="description" name="description"></textarea>
+        
+                <label for="category">Категория:</label>
+                <input type="text" id="category" name="category">
+        
+                <button id="addBtn" class="addBtn">Добавить товар</button>
+              </form>
+              
+            </div>
+            <h1>Shop</h1>
+            <div id="productList">
+            </div>
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <div>
+            <img src="./img/logo.png" alt="лого" class="footer_logo">
+        </div>
+        <div>
+            <p class="footer_p">
+                Контакты:
+            </p>
+        </div>
+        <div>
+            <ul class="footer_contact">
+                <li class="footer_contact-li"> <a href="tel:+79993747864"> +7(800)374 78 64</a></li>
+                <li class="footer_contact-li"><a href="mailto:fashion@mail.ru"> GQmagazine@mail.ru</a></li>
+            </ul>
+        </div>
+        <div class="footer_img">
+            <img src="./img/icons8-instagram-50.png" alt="инстаграмм" class="footer_img-1">
+            <img src="./img/icons8-whatsapp-50.png" alt="ватсап" class="footer_img-2">
+            <img src="./img/icons8-телеграм-50.png" alt="тееграм" class="footer_img-3">
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
